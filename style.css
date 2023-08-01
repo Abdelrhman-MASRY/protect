@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;700&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+/*  start hover */
+
+nav ul li a:hover {
+    color: #fff; /* Change the text color */
+    background-color: #db3a3a; /* Change the background color */
+ 
+  }
+  nav ul li a {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Add a transition to the color and background-color properties */
+  }
+  
+  nav :hover{
+    transform: scale(1.01);
+  }
+  
+/* End hover */
+
+.sele{
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.para{
+    margin-top: 40px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom:50px ;
+}
+.card-text{ 
+    text-align: center;
+    font-size:17px ;
+    font-weight: bold;
+}
+.word{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.watch {
+    display: flex;
+
+}
+.watch img{
+    margin-right:20px;
+}
+.clock{
+    margin-top: 100px;
+}
+.items{
+    margin-top: 85px;
+}
+.clock img{
+    border-bottom: 2px solid rgb(197, 24, 24);
+}
+.my-button {
+    margin-top: 40px;
+    background-color:red; /* red background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .my-button:hover {
+    background-color: #2d2954; /* Dark green background on hover */
+  }
+ .h1h1h{
+  font-weight: bold;
+  margin-top: 170px;
+  font-family: 'Noto Sans', sans-serif;
+ }
+ .masry{
+    font-weight: bold; 
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 120px;
+ }
+ .second-button{
+    margin-top: 40px;
+    background-color:red; /* red background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+ }
+ .second-button:hover {
+    background-color: #2d2954; /* Dark green background on hover */
+}
+.product {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product:hover .overlay {
+    opacity: 1;
+  }
+  
+  .add-to-cart {
+    position: absolute;
+    bottom: 1px;
+    right: px;
+    margin: auto;
+    width: 362px;
+    height: 55px;
+    padding: 10px 20px;
+    background-color: #f31515;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .add-to-cart:hover {
+    background-color: #cc0000;
+  }
+/* End Section Add TO Cart */
+.carrds img {
+overflow: hidden;
+transition: .5s;
+}
+.carrds img :hover{
+  color: #2c2929;
+  transform: scale(1.1);
+}
+.imagee :hover{
+  color: #2c2929;
+  transform: scale(1.001);
+}
